@@ -1,6 +1,6 @@
 AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
-BATCH_SIZE: 64 # Intially to 16
+BATCH_SIZE: 16
 INCLUDE_TOP: False # Because we don't want the Full connected model, we just want the base model 
 EPOCHS: 1
 CLASSES: 2
