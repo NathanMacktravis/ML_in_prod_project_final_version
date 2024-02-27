@@ -651,3 +651,14 @@ x==========x]
 [2024-02-27 11:28:19,350: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-02-27 11:50:22,163: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-27 11:50:25,448: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.146:8080]
+[2024-02-27 11:50:25,449: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-27 11:50:35,877: INFO: _internal: 127.0.0.1 - - [27/Feb/2024 11:50:35] "GET / HTTP/1.1" 200 -]
+[2024-02-27 11:50:36,244: INFO: _internal: 127.0.0.1 - - [27/Feb/2024 11:50:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-02-27 11:50:40,827: INFO: _internal: 192.168.0.146 - - [27/Feb/2024 11:50:40] "GET / HTTP/1.1" 200 -]
+[2024-02-27 11:50:41,149: INFO: _internal: 192.168.0.146 - - [27/Feb/2024 11:50:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
