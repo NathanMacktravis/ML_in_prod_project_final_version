@@ -879,3 +879,59 @@ Traceback (most recent call last):
     raise IOError(
 OSError: No file or directory found at model\model.h5
 [2024-02-27 12:02:35,447: INFO: _internal: 127.0.0.1 - - [27/Feb/2024 12:02:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-02-27 12:24:28,232: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-27 12:24:29,985: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.146:8080]
+[2024-02-27 12:24:29,986: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-02-27 12:25:01,273: INFO: _internal: 127.0.0.1 - - [27/Feb/2024 12:25:01] "GET / HTTP/1.1" 200 -]
+[2024-02-27 12:25:16,600: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2024-02-27 12:25:19,900: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 12:25:19,904: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-27 12:25:19,906: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:25:19,907: INFO: common: created directory at: artifacts]
+[2024-02-27 12:25:19,908: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 12:25:19,909: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 12:25:22,177: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 12:25:23,410: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 12:25:23,410: INFO: main: *******************]
+[2024-02-27 12:25:23,411: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-27 12:25:23,414: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-27 12:25:23,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:25:23,418: INFO: common: created directory at: artifacts]
+[2024-02-27 12:25:23,418: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-27 12:25:23,863: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2024-02-27 12:25:24,134: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2024-02-27 12:25:27,587: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-27 12:25:28,055: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-27 12:25:28,056: INFO: main: *******************]
+[2024-02-27 12:25:28,056: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-02-27 12:25:28,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-27 12:25:28,062: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:25:28,063: INFO: common: created directory at: artifacts]
+[2024-02-27 12:25:28,064: INFO: common: created directory at: artifacts\training]
+[2024-02-27 12:25:29,995: WARNING: module_wrapper: From C:\Users\ebern\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2024-02-27 12:31:33,264: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-27 12:31:33,265: INFO: main: *******************]
+[2024-02-27 12:31:33,266: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-27 12:31:33,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-02-27 12:31:33,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:31:33,275: INFO: common: created directory at: artifacts]
+[2024-02-27 12:32:16,433: INFO: common: json file saved at: scores.json]
+[2024-02-27 12:32:16,435: INFO: common: json file saved at: scores.json]
+[2024-02-27 12:32:16,435: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-27 12:32:19,470: INFO: _internal: 127.0.0.1 - - [27/Feb/2024 12:32:19] "GET /train HTTP/1.1" 200 -]
