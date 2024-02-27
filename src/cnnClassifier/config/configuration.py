@@ -54,7 +54,7 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "tumor_normal_kidney_disease_data")
+        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "tumor_normal_kidney_disease_data copy")
         create_directories([
             Path(training.root_dir)
         ])
