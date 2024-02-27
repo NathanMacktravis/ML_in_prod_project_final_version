@@ -651,3 +651,91 @@ x==========x]
 [2024-02-27 11:28:19,350: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-02-27 11:58:07,054: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 11:58:07,063: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:58:07,068: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:58:07,069: INFO: common: created directory at: artifacts]
+[2024-02-27 11:58:07,069: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 11:58:07,070: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:58:11,084: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:58:11,424: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 11:59:14,591: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 11:59:14,594: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:59:14,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:59:14,595: INFO: common: created directory at: artifacts]
+[2024-02-27 11:59:14,595: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 11:59:14,595: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:59:17,893: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:59:18,223: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 12:01:24,203: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 12:01:24,206: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:01:24,206: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:01:24,206: INFO: common: created directory at: artifacts]
+[2024-02-27 12:01:24,206: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 12:01:24,206: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 12:01:29,214: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 12:01:29,550: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 12:01:33,761: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 12:01:34,173: INFO: stage_02_prepare_base_model: *******************]
+[2024-02-27 12:01:34,173: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-27 12:01:34,174: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:01:34,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:01:34,174: INFO: common: created directory at: artifacts]
+[2024-02-27 12:01:34,175: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-27 12:01:34,491: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-27 12:01:34,609: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 12:01:34,717: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-27 12:03:26,825: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 12:03:27,235: INFO: stage_02_prepare_base_model: *******************]
+[2024-02-27 12:03:27,235: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-27 12:03:27,236: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:03:27,237: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:03:27,237: INFO: common: created directory at: artifacts]
+[2024-02-27 12:03:27,237: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-27 12:03:27,528: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-27 12:03:27,722: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 12:03:27,835: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-27 12:03:30,601: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 12:03:30,917: INFO: stage_03_model_training: *******************]
+[2024-02-27 12:03:30,917: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-02-27 12:03:30,918: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:03:30,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:03:30,919: INFO: common: created directory at: artifacts]
+[2024-02-27 12:03:30,919: INFO: common: created directory at: artifacts/training]
+[2024-02-27 12:03:31,120: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 12:05:44,500: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-27 12:06:53,356: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 12:06:53,762: INFO: stage_03_model_training: *******************]
+[2024-02-27 12:06:53,762: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-02-27 12:06:53,763: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:06:53,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:06:53,764: INFO: common: created directory at: artifacts]
+[2024-02-27 12:06:53,764: INFO: common: created directory at: artifacts/training]
+[2024-02-27 12:06:53,978: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 12:09:09,145: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-27 12:10:25,005: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 12:10:25,837: INFO: stage_04_model_evaluation_mlflow: *******************]
+[2024-02-27 12:10:25,837: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-27 12:10:25,838: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 12:10:25,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 12:10:25,839: INFO: common: created directory at: artifacts]
+[2024-02-27 12:10:26,179: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 12:10:40,728: INFO: common: json file saved at: scores.json]
+[2024-02-27 12:10:40,729: INFO: common: json file saved at: scores.json]
+[2024-02-27 12:10:40,729: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
