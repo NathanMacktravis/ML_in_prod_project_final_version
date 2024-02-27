@@ -1,0 +1,34 @@
+cmd: python src/cnnClassifier/pipeline/stage_03_model_training.py
+deps:
+- path: artifacts/data_ingestion/tumor_normal_kidney_disease_data copy
+  hash: md5
+  md5: ae254d995393bb5610619e81fd60bd79.dir
+  size: 46823890
+  nfiles: 399
+- path: artifacts/prepare_base_model
+  hash: md5
+  md5: c732a54028d24a1f9f6da83ef0317716.dir
+  size: 118059248
+  nfiles: 2
+- path: config/config.yaml
+  hash: md5
+  md5: 8b2b201d6aa5cdbeda054f62d8f82897
+  size: 564
+- path: src/cnnClassifier/pipeline/stage_03_model_training.py
+  hash: md5
+  md5: 96dd0aa82b6f95b10a68c22cacf2ff64
+  size: 893
+params:
+  params.yaml:
+    AUGMENTATION: true
+    BATCH_SIZE: 16
+    EPOCHS: 3
+    IMAGE_SIZE:
+    - 224
+    - 224
+    - 3
+outs:
+- path: artifacts/training/model.h5
+  hash: md5
+  md5: 64569d2bc0e76e42f19bfcd3b7049469
+  size: 59340720
