@@ -27,8 +27,8 @@ def home():
 @app.route("/train", methods=['GET','POST'])
 @cross_origin()
 def trainRoute():
-    os.system("python main.py")
-    # os.system("dvc repro")
+    os.system("python main.py") # regular pipeline 
+    # os.system("dvc repro") # Use this command if you are using DVC
     return "Training done successfully!"
 
 
