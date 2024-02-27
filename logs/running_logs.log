@@ -433,3 +433,89 @@ x==========x]
 [2024-02-27 01:09:54,485: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-02-27 11:00:14,631: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 11:00:15,371: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 11:00:15,372: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:00:15,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:00:15,373: INFO: common: created directory at: artifacts]
+[2024-02-27 11:00:15,373: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 11:00:15,373: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:00:19,930: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:00:20,791: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 11:00:20,792: INFO: main: *******************]
+[2024-02-27 11:00:20,792: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-27 11:00:20,793: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:00:20,794: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:00:20,794: INFO: common: created directory at: artifacts]
+[2024-02-27 11:00:20,794: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-27 11:00:21,181: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-27 11:00:21,440: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:00:21,592: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-27 11:00:21,592: INFO: main: *******************]
+[2024-02-27 11:00:21,592: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-02-27 11:00:21,593: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:00:21,594: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:00:21,594: INFO: common: created directory at: artifacts]
+[2024-02-27 11:00:21,594: INFO: common: created directory at: artifacts/training]
+[2024-02-27 11:00:21,739: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:01:01,737: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-27 11:01:01,737: INFO: main: *******************]
+[2024-02-27 11:01:01,738: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-27 11:01:01,739: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:01:01,740: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:01:01,740: INFO: common: created directory at: artifacts]
+[2024-02-27 11:01:01,864: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:01:14,952: INFO: common: json file saved at: scores.json]
+[2024-02-27 11:01:14,953: INFO: common: json file saved at: scores.json]
+[2024-02-27 11:01:14,953: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-02-27 11:02:16,959: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-02-27 11:02:17,668: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-27 11:02:17,669: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:02:17,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:02:17,670: INFO: common: created directory at: artifacts]
+[2024-02-27 11:02:17,670: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-27 11:02:17,670: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:02:21,956: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1EEv0tuKQW_kgU-1cpAaeU7RLzgzUTPpf/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-02-27 11:02:22,496: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-27 11:02:22,496: INFO: main: *******************]
+[2024-02-27 11:02:22,496: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-02-27 11:02:22,496: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:02:22,497: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:02:22,497: INFO: common: created directory at: artifacts]
+[2024-02-27 11:02:22,497: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-02-27 11:02:23,037: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-02-27 11:02:23,501: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:02:23,692: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-02-27 11:02:23,692: INFO: main: *******************]
+[2024-02-27 11:02:23,692: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-02-27 11:02:23,693: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:02:23,693: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:02:23,694: INFO: common: created directory at: artifacts]
+[2024-02-27 11:02:23,694: INFO: common: created directory at: artifacts/training]
+[2024-02-27 11:02:23,829: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:03:50,429: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-02-27 11:03:50,430: INFO: main: *******************]
+[2024-02-27 11:03:50,430: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-02-27 11:03:50,431: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-27 11:03:50,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-27 11:03:50,433: INFO: common: created directory at: artifacts]
+[2024-02-27 11:03:50,579: WARNING: optimizer: At this time, the v2.11+ optimizer `tf.keras.optimizers.SGD` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.SGD`.]
+[2024-02-27 11:04:06,897: INFO: common: json file saved at: scores.json]
+[2024-02-27 11:04:06,897: INFO: common: json file saved at: scores.json]
+[2024-02-27 11:04:06,898: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
